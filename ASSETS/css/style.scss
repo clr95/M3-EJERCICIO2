@@ -1,0 +1,78 @@
+$primary-color: #fae85a;
+$YELLOW-COLOR: #F5C764;
+$yellow2-color:#dea350;
+$secondary-color: #FAA05A;
+$fourth-color: #FAA05A;
+$DARK-COLOR: #4F3DA8;
+$GREEN-COLOR: #7EF57D;
+
+body {
+    background-color: $primary-color;
+    font-family: 'verdana';
+}
+
+.navbar {
+    background-color: $yellow2-color;
+    margin-bottom: 2%;
+    color:black;
+}
+
+.navbar-brand{
+    color: $DARK-COLOR;
+    font-weight: bold;
+    font-size: 20px;
+    font-size: x-large;
+}
+.nav-link{
+    color:black;
+    font-size: 18px;
+    font-size: large;
+}
+
+h1 {
+    font-size: 22px;
+    font-size: xx-large;
+    color: $DARK-COLOR;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-weight: bold;
+}
+.d-flex{
+    align-items: center;
+}
+
+.card {
+    margin-bottom: 2%;
+    align-items: center;
+    background-color: $DARK-COLOR;
+    font-size: 14PX;
+    font-size: medium;
+    font-weight: bold;
+    ;
+}
+.container{
+    align-items: center;
+}
+
+.card-img {
+    width: 19rem;
+    height: 10rem;
+    align-items: center;
+}
+
+.card-img-top {
+    width: 13rem;
+    height: 10rem;
+}
+.btn{
+    background-color: $fourth-color;
+    font-weight: bold;
+    font-family: 'verdana';
+}
+.card-footer {
+    background-color: $yellow2-color;
+    font-size: 12px;
+    font-size: small;
+    color:black;
+}
